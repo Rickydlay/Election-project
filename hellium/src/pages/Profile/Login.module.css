@@ -1,0 +1,47 @@
+/* src/pages/Profile/Admin/Login.module.css */
+
+.wrapper {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f8f8f8; /* Soft light background */
+    border: 1px solid #4CAF50; /* Light green border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #004d00;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #008000; /* Primary green border */
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button {
+    background: #008000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #004d00; /* Darker green on hover */
+  }
+  
