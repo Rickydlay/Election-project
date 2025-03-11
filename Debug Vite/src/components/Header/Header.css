@@ -1,0 +1,27 @@
+.header {
+    background: linear-gradient(to right, #008000, #004d00); /* Subtle green gradient */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #4CAF50; /* Light green hover effect */
+  }
+  
