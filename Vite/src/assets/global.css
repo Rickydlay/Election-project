@@ -1,0 +1,51 @@
+/* src/assets/global.css */
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    background: #ffffff; /* Clean white background */
+    color: #004d00; /* Dark green for text */
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #008000; /* Primary green */
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #4CAF50; /* Light green on hover */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Utility Classes */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #008000; /* Primary Green */
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #004d00; /* Dark Green */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
