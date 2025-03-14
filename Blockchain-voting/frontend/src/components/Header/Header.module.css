@@ -1,0 +1,51 @@
+.header {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  width: 100vw;
+  margin: 0;
+}
+.nav {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.siteName {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 20px; /* Adjusted for new position */
+}
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: #333;
+}
+.hero {
+  position: relative;
+  width: 100vw;
+  margin: 0;
+}
+.heroImage {
+  width: 100%;
+  height: 300px; /* Increased height for longer image */
+  object-fit: cover;
+  opacity: 0.7;
+}
+.slogan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 28px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}

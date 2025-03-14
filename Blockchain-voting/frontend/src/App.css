@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh; /* Ensures body takes full viewport height */
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures App fills the screen */
+  width: 100%; /* Ensures full width */
+}
